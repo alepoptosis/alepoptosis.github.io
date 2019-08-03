@@ -5,7 +5,7 @@ sub_title: My personal notes from the first day of the Demystify Data Science co
 created_date: 3 Aug 2019
 ---
 
-# #DemystifyDS conference, day 1 highlights
+# DemystifyDS conference, day 1 highlights
 
 The [Demystifying Data Science](https://www.thisismetis.com/demystifying-data-science) conference is an annual free online conference hosted by [Metis](https://www.thisismetis.com/), a company that provides data science training for companies, individuals and institutions. 
 As someone who has only very recently found their love for data science, I registered as soon as I found out about the event on Twitter, and seen as not everyone might have been able to follow the live event (often due to pesky jobs and time zones), I decided to collect the notes I took from the 8 amazing speakers that dropped tons of knowledge on all of us on Day 1. If you find this interesting, make sure to follow the speakers on Twitter, as well as myself at [@alepoptosis](https://twitter.com/alepoptosis).
