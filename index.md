@@ -3,7 +3,7 @@ layout: template
 ---
 
 <div class="row">
-    {% for article in site.article %}      
+    {% for article in site.articles %}      
       <div class="col-12 mb-5">
           <a href="{{ article.url }}" style="text-decoration: none; color: #34383c">
               <div class="col-12">
