@@ -1,3 +1,5 @@
 collections:
-  article:
+  articles:
+    output: true
+  images:
     output: true
