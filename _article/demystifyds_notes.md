@@ -1,6 +1,6 @@
 ---
 layout: template
-title: #DemystifyDS conference, day 1 highlights
+title: DemystifyDS conference, day 1 highlights
 sub_title: My personal notes from the first day of the Demystify Data Science conference
 created_date: 3 Aug 2019
 ---
