@@ -1,5 +1,7 @@
 ---
 layout: template
+title: alepoptosis
+sub_title: Personal Website
 ---
 
 {% for post in site.posts %}      
