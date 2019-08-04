@@ -2,20 +2,14 @@
 layout: template
 ---
 
-<div class="row">
-    {% for article in site.articles %}      
-      <div class="col-12 mb-5">
-          <a href="{{ article.url }}" style="text-decoration: none; color: #34383c">
-              <div class="col-12">
-                  <h1>{{ article.title }}</h1>
-              </div>
-              <div class="col-12">
-                  <p>{{ article.sub_title }}</p>
-              </div>
-              <div class="col-12 text-right mb-2">
-                  <small>{{ article.created_date }}</small>
-              </div>
-          </a>
-      </div>
-    {% endfor %}
-</div>
+{% for post in site.posts %}      
+  <div class="mb-5">
+      <a href="{{ post.url }}" style="text-decoration: none; color: #34383c">
+          <h1>{{ post.title }}</h1>
+          <p style="text-align: center">{{ post.sub_title }}</p>
+          <div class="text-right">
+              <small class="text-right">{{ post.date | date_to_string }}</small>
+          </div>
+      </a>
+  </div>
+{% endfor %}
