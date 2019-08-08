@@ -1,47 +1,85 @@
-.btn:focus,.btn:active {
+.btn:focus, .btn:active {
     outline: none !important;
     box-shadow: none;
 }
+
 .content blockquote {
     border-left: 10px solid #ccc;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
 }
+
 .content blockquote p {
     margin: 0;
     font-style: italic;
     color: #636b6f;
 }
+
 .content code {
     color: #1b1e21;
 }
+
 .content h1 {
-    font-size: 4.5vh;
     text-align: center;
     padding-bottom: 15px;
 }
-.content h2 {
-    font-size: 4vh;
-}
-.content h3 {
-    font-size: 3.5vh;
-}
-.content h4 {
-    font-size: 3vh;
-}
-.content h5 {
-    font-size: 2.5vh;
-}
-.content h6 {
-    font-size: 2.5vh;
-}
+
 .content p {
     text-align: justify;
-    font-size: 2.5vh;
 }
-.content ul, ol {
-    font-size: 2.5vh;
-}
+
 .content img {
     width: 100%;
+}
+
+@media screen {
+    .content h1 {
+        font-size: 40px;
+    }
+
+    .content h2 {
+        font-size: 32px;
+    }
+
+    .content h3 {
+        font-size: 30px;
+    }
+
+    .content h4 {
+        font-size: 28px;
+    }
+
+    .content h5 {
+        font-size: 26px;
+    }
+
+    .content h6, .content p, .content ul, ol {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .content h1 {
+        font-size: 30px;
+    }
+
+    .content h2 {
+        font-size: 28px;
+    }
+
+    .content h3 {
+        font-size: 26px;
+    }
+
+    .content h4 {
+        font-size: 24px;
+    }
+
+    .content h5 {
+        font-size: 22px;
+    }
+
+    .content h6, .content p, .content ul, ol {
+        font-size: 20px;
+    }
 }
