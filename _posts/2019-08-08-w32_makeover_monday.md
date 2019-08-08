@@ -11,6 +11,7 @@ The data provided for this week's Makeover Monday was from Gridwatch, and it con
 ![Image](https://media.data.world/MZv1UvTuRf2sakpA9jJM_Screenshot%202019-08-03%20at%207.53.06%20am.png)
 
 ## My thoughts on the visualisation:
+---
 
 ### What works with this chart?
 
