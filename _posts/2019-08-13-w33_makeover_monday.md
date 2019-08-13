@@ -6,7 +6,9 @@ sub_title: A bird's-eye view of clinical trials
 
 # Makeover Monday 2019/W33 - A bird's-eye view of clinical trials
 
-This week's data was provided by the [Aero Data Lab](https://www.aerodatalab.org/birds-eye-view-of-research-landscape) and it contained information on more than 13,000 clinical trials from 10 different pharmaceutical companies, along with the trial title, summary, status, number of human subjects enrolled and more. The original visualisation aimed at providing a bird's-eye view of hundreds of different conditions by displaying all of these characteristics in a single graph, at the same time. The accompanying article highlights the importance for pharmaceutical companies to visualise this information in order to understand which conditions are being studied, who is investing in them, if the trials are being completed, and if there are any areas which are being neglected.
+This week's data was provided by the [Aero Data Lab](https://www.aerodatalab.org/birds-eye-view-of-research-landscape) and it contained information on more than 13,000 clinical trials from 10 different pharmaceutical companies, along with the trial title, summary, status, number of human subjects enrolled and more. The original visualisation aimed at providing a bird's-eye view of hundreds of different conditions by displaying all of these characteristics in a single graph, at the same time. The accompanying article highlights the importance for pharmaceutical companies to visualise this information in order to understand which conditions are being studied, who is investing in them, if the trials are being completed, and if there are any areas which are being neglected. This is what a portion of the original visualisation looks like:
+
+![Image](https://media.data.world/OVjEAs3JTKmMA2gK9s7F_Screenshot%202019-08-10%20at%2010.47.09%20am.png)
 
 ## My thoughts on the visualisation:
 
@@ -35,6 +37,10 @@ This week's data was provided by the [Aero Data Lab](https://www.aerodatalab.org
 	5. Where can I find **more information** about the trials I am interested in? *(further info on selected trials)*
 - With all these different graphs and filters, people can get an **overall idea** of the trends that trials are following either in general, for a specific condition, or based on their characteristics (status, start date, phase etc.), all while keeping different information clearly separated;
 - All the selected filters act on the **list of trials at the bottom** of the dashboard, where the viewer can find out more about each trial without risking clicking the wrong bubble, and without having to limit themselves to seeing one trial at a time only.
+
+![Image](https://pbs.twimg.com/media/EByBXkRXYAAyDET?format=jpg&name=4096x4096)
+
+[Interactive dashboard](https://public.tableau.com/profile/alepoptosis#!/vizhome/Abirds-eyeviewofclinicaltrials-MakeoverMonday2019W33/Abirds-eyeviewofclinicaltrials)
 
 ## How did I do it?
 
