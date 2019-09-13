@@ -14,21 +14,21 @@ The dataset for this week was interesting, albeit a bit messy! It contained the 
 
 ### What works with this chart?
 
-- It is very visually appealing, with a pleasant colour scheme that allows a more or less clear distinction between the different books/trends analysed.
+- It is **very visually appealing**, with a pleasant colour scheme that allows a more or less clear distinction between the different books/trends analysed.
 
 ### What doesn't work with this chart?
 
-- Representing a change over time with unconnected circles on a chart is very confusing. It is not easy to follow the progression of each book and the result is that the viewer only gets a general idea of which volumes were more popular in a general timespan, but any meaningful trend gets lost in the mess, with many circles (even of the same colour) often overlapping;
-- There is no clear scale for what the size of the dots mean, as the y axis should already represent the volume of checkouts/web searches and there is no other legend in the chart;
-- The description of the y axis is confusing, and it contains a word that is either a typo or a very dated way of saying "volume" (volumn);
-- Overall, it feels like whoever made the chart was more focused on making something that was visually appealing rather than on conveying accurate information or highlighting a particular trend.
+- Representing a change over time with **unconnected circles on a chart is very confusing**. It is not easy to follow the progression of each book and the result is that the viewer only gets a **general idea** of which volumes were more popular in a general timespan, but **any meaningful trend gets lost** in the mess;
+- There is no clear scale for **what the size of the circles means**, as the y axis should already represent the volume of checkouts/web searches and there is no other legend in the chart;
+- The **description of the y axis is confusing**, and it contains a word that is either a typo or a very outdated way of saying "volume" (volumn);
+- Overall, it feels like whoever made the chart was **more focused** on making something that was **visually appealing** rather than on conveying accurate information or highlighting a particular trend.
 
 ### How can it be improved?
 
-- Of course, the dataset we had did not contain exactly the same information contained in the Jane Austen visualisation, but the aim was the same: use the checkout records of the public library to show the change in popularity over time of the books from a certain author for the Seattle area. Therefore, I made the area chart representing book checkouts over time the main piece of my dashboard;
-- Then, since many books from J. Patterson follow a series, I used a bar chart to show the viewer which series were the most popular by checkout numbers. I also allowed them to filter the checkouts over time chart to see only data relevant to a specific book series (or to books that do not belong to one);
-- Also, seen how prolific an author J. Patterson is, I showed the viewer how many books were published per year (even if this might contain some invalid data, as sometimes the same book had more than one publishing year). This also allows the viewer to filter the checkouts over time/series charts by publishing data, revealing some trends on how checkouts tend to taper off in the years following the first publication;
-- Finally, I added a small filter at the bottom to allow the viewer to select a specific book they are curious about. This alters the other three charts, showing them if the book belongs to a series, when it was published, and how many times it was checked out during the years.
+- Of course, the dataset we had did not contain exactly the same information contained in the Jane Austen visualisation, but the aim was the same: use the checkout records of the public library to show the change in popularity over time of the books from a certain author for the Seattle area. Therefore, I made the **area chart representing book checkouts over time the main piece of my dashboard**;
+- Then, since many books from J. Patterson follow a series, I used a bar chart to show the viewer **which series were the most popular** by checkout numbers. I also allowed them to **filter the checkouts** over time chart to see only data relevant to a specific book series (or to books that do not belong to one);
+- Also, seen how prolific an author J. Patterson is, I showed the viewer **how many books were published per year** (even if this might contain some **invalid data**, as sometimes the same book had more than one publishing year). This also allows the viewer to filter the checkouts over time/series charts by publishing data, revealing some trends on how checkouts tend to taper off in the years following the first publication;
+- Finally, I added a small filter at the bottom to allow the viewer to **select a specific book** they might be curious about. This alters the other three charts, showing them if the book belongs to a series, when it was published, and how many times it was checked out during the years.
 
 ![Image](https://i.imgur.com/SEwSQfc.png)
 
