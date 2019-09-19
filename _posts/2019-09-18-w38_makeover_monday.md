@@ -14,13 +14,13 @@ This week's Makeover Monday was in collaboration with the UN SDG Action Campaign
 
 ### What works with this chart?
 
-- ... Not much. It is a good idea to show the top two actions for each goal and the durations that people proposed for them, but that is pretty much it. 
+- ... **Not much**. It is a good idea to show the top two actions for each goal and the durations that people proposed for them, but that is pretty much it. 
 
 ### What doesn't work with this chart?
 
-- The filtering system is slow and it is difficult to isolate a specific group of voters. Also, there is no overview of the votes, which means that anyone interested in the top goals/suggestions for a group would have to individually go look for the change in results for each of the 17 goals;
-- Navigating the other proposed actions is difficult as they are represented as a table instead of a list, so the viewer has to hover over each block to read the results;
-- Overall, this visualisation is better suited for someone who is going to work with the data and wants to study it through something other than a table, but otherwise it struggles to communicate content effectively as it is.
+- The **filtering system is slow** and it is difficult to isolate a specific group of voters. Also, there is **no overview of the votes**, which means that anyone interested in the top goals/suggestions for a group would have to individually go look for the change in results for each of the 17 goals;
+- Navigating the other proposed actions is difficult as they are represented as a **table instead of a list**, so the viewer has to hover over each block to read the results;
+- Overall, this visualisation is better suited for someone who is going to work with the data and wants to study it through something other than a table, but otherwise **it struggles to communicate content effectively** as it is.
 
 ### How can it be improved?
 
@@ -63,10 +63,11 @@ top_goal_count = pie.groupby(["Country"])["Goal name"].value_counts().to_frame("
 # keep only top value per country
 top_goal_count = top_goal_count.groupby(["Country"])["Votes"].nlargest(1).to_frame()
 ```
-**Note**: for some reason, this code results in a dataframe with two "Country" columns. I have no idea why nor how to not make it do that. If anyone can tell me what I am doing wrong I would wildly appreciate it. Either way, it works, even if in a dirty way.
-**Further note**: some countries are multimodal, i.e. there is more than one most popular goal. For those situations I simply let Python pick any one of them, since this was mostly caused by a very low number of voters, who all chose different goals.
+	**Note**: for some reason, this code results in a dataframe with two "Country" columns. I have no idea why nor how to not make it do that. If anyone can tell me what I am doing wrong I would wildly appreciate it. Either way, it works, even if in a dirty way.
 
-Unfortunately, using a separate dataset for the map meant that I could not use it as a filter for the scatter plot. It would have been cool to see the composition of voters of different countries, but because they were separate tables, I did not know how to make that happen.
+	**Further note**: some countries are multimodal, i.e. there is more than one most popular goal. For those situations I simply let Python pick any one of them, since this was mostly caused by a very low number of voters, who all chose different goals.
+
+	Unfortunately, using a separate dataset for the map meant that I could not use it as a filter for the scatter plot. It would have been cool to see the composition of voters of different countries, but because they were separate tables, I did not know how to make that happen.
 
 - Finally, I learned how to do a neat thing that I ended up not using in the final visualisation: I managed to turn the SDG icons into interactive filters by using custom shapes and an extremely tweaked treemap! I was sad not to use them but they ended up making everything too cluttered. If you're interested in how I did it, here's an [unlisted Tableau dashboard](https://public.tableau.com/profile/alepoptosis#!/vizhome/Notes-Interactiveicons/Selectgoal?publish=yes) which you can play with and download.
 
