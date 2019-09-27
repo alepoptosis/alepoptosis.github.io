@@ -27,7 +27,7 @@ Before I get into what I made, it is necessary to give yet another shout-out to 
 
 Personally, I decided to adopt a similar approach to his, and focus on the questions when?, where?, and why? 
 
-- The *when* was the easiest, I simply produced a bar chart which looked at the number of evictions per month from the beginning of 1998 to the end of 2018, given that the data for 1997 and 2019 was incomplete. The month-by-month approach allows to spot trends over the years, for example a decrease in evictions around December (basic decency, one would hope).
+- The *when* was the easiest, I simply produced a bar chart which looked at the number of evictions per month from the beginning of 1998 to the end of 2018, given that the data for 1997 and 2019 was incomplete. The month-by-month approach allows to spot trends over the years, for example a decrease in evictions in the winder (basic decency, one would hope)\*.
 - The *why* was also very straightforward, with a bar chart showing the top reasons for eviction. Personally, I like to keep the "other" category at the end, which is why the bottom bar is not the smallest, even though the other categories are indeed ordered by number of records.
 - The *where* was by far the most fun and interesting, as I used a hexbin map to display the areas where evictions hit the hardest (see next section to learn how to build one). However, due to a few data points with an unusually high number of records (the three peaks shown in the original vis), the range is too wide to actually show regional differences. It is useful to select an area for filtering, however.
 
@@ -36,6 +36,15 @@ Last, but not least, I allowed the viewer to use any graph to filter the others,
 ![Image](https://i.imgur.com/RGGQs91.png)
 
 [Interactive dashboard](https://public.tableau.com/profile/alepoptosis#!/vizhome/Thereasonsbehindeviction-MakeoverMonday2019w39/Thereasonsbehindeviction)
+
+\*While writing this I became curious whether this was an impression or an actual fact, so I used a SQL query to have a look into the dataset on data.world and in fact it turns out that December, November, January and February indeed have the lowest number of evictions! You can run the same query [here](https://data.world/makeovermonday/2019w39/workspace/query?queryid=sample-0), but you'll need to have an account. Query is:
+
+```
+SELECT MONTH(file_date) as month, COUNT(eviction_id) as evictions
+FROM sf_eviction_notices
+GROUP BY MONTH(file_date)
+ORDER BY count(eviction_id) ASC
+```
 
 ## How did I do it?
 
