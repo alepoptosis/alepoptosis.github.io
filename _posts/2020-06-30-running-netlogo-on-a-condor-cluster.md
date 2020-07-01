@@ -39,8 +39,8 @@ If copy-pasting this, make sure to update the following:
 
 - `transfer_input_files` (required): make sure this parameter reflects **the name of your actual .nlogo file**, which for me here is simply model.nlogo;
 - `NAME` (required): this is a placeholder that **you must substitute with the name you gave to your experiment**. In the file above, it's also present as part of the output name, which I think keeps things tidy, but feel free to change that to reflect your own naming convention;
+- `Queue` (required): depending on how you decide to run your replicates, you might have to change this (see last section for more info);
 - `DATE` (optional): like above, I find it good practice to include the date you ran your job on in the file name to make sure you don't get confused, but ultimately it's up to you;
-- `Queue` (optional): depending on how you decide to run your replicates, you might have to change this (see last section for more info);
 - `arguments` (optional): the setup above produces a standard table output which is put in the same directory as the original. If you need to change that, or alter some other parameters, see [this section of the BehaviorSpace guide](https://ccl.northwestern.edu/netlogo/docs/behaviorspace.html#running-from-the-command-line);
 - `executable` (optional): as of July 2020, NetLogo version 6.1.1 is the most recent, but if you're from the future, a) wow, I can't believe we actually survived 2020, and b) you might want to check the main executable is still called the same, and that the jar_files list hasn't changed.
 
@@ -66,7 +66,7 @@ Once the job has finished (you can check its status with the condor_q command), 
 
 This is probably the most critical decision you will have to make in this process. You will have noticed that BehaviorSpace offers the option of scheduling a specific number of runs for each experiment, called repetitions. Say you want to run your model 100 times to check for variation, you have two main options:
 
-**Option 1 - Schedule 100 repetitions through BehaviorSpace and Queue 1 job on Condor:** this is the **slow but tidy** way of doing things, as each machine in the cluster will only pick up one job, meaning that one machine will have to run the 100 repetitions. Unless you're working from a toaster, this is probably going to take about long as your own computer would have taken, but at least you retain access to it. The positive aspect of choosing this option is that Condor will produce a **single output file**, in which the 100 runs will already be correctly labelled. 
+**Option 1 - Schedule 100 repetitions through BehaviorSpace and Queue 1 job on Condor:** this is the **slow but tidy** way of doing things, as each machine in the cluster will only pick up one job, meaning that one machine will have to run the 100 repetitions. Unless you’re working from a toaster, this is definitely going to take longer than your own computer would have taken, but at least you retain access to it. The positive aspect of choosing this option is that Condor will produce a **single output file**, in which the 100 runs will already be correctly labelled. 
 
 ### Example of a single file output (3 runs, 2 steps each)
 ```
