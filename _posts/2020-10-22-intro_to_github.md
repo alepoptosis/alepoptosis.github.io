@@ -154,15 +154,15 @@ What I tend to do is commit every time I finish a task, and push when I go off f
 
 Another handy feature of Git repositories are branches: I like to think of these are parallel universes for the project, which all start with the basis, but then branch off into different directions.
 
-So far, if you followed this guide, you will have been working on the default repository branch, called ```master```. You can make another branch the default if you wish, but many would advise against it (naming conventions, yada yada). The default master branch will usually contain the latest stable/working version of your project.
+So far, if you followed this guide, you will have been working on the default repository branch, called ```main```. You can make another branch the default if you wish, but many would advise against it (naming conventions, yada yada). The default main branch will usually contain the latest stable/working version of your project.
 
 However, we've all had that idea, especially when working on code, that you feel will either be a genius solution to all your problems, or irreversibly screw everything up. Without Git, you'd probably make a copy of the file to be safe, just in case, but with Git, you can simply make a new branch and screw that one up instead!
 
-When a branch is created off of master, at first they're exactly the same, so you can edit any file in the branch without fear of not being able to revert it. Then, once you're sure the new changes work, you can merge the branch with master though a **pull request**, or scrap it if your idea was crap after all.
+When a branch is created off of main, at first they're exactly the same, so you can edit any file in the branch without fear of not being able to revert it. Then, once you're sure the new changes work, you can merge the branch with main though a **pull request**, or scrap it if your idea was crap after all.
 
 ## Create a new branch
 
-This can be done on the GitHub website by going to the main page of your repository and clicking on ```master``` in the top-right corner, and simply typing the new branch name in the text box that appears there.
+This can be done on the GitHub website by going to the main page of your repository and clicking on ```main``` in the top-right corner, and simply typing the new branch name in the text box that appears there.
 
 If you'd rather do this in Git Bash, simply type ```git branch <branch-name>```.
 
@@ -174,7 +174,7 @@ You can also create a new branch and switch to it at the same time in Git Bash u
 
 ## Pull requests and merging
 
-If the changes made in a branch are good enough to make it into the working version of your project, you can easily merge those changes with whatever is going on in master by initiating a **pull request**. This will literally be a request for master to pull the changes found in another branch, effectively merging them if no conflicts occur between the two. Usually this shouldn't happen, unless master has had edits of its own.
+If the changes made in a branch are good enough to make it into the working version of your project, you can easily merge those changes with whatever is going on in main by initiating a **pull request**. This will literally be a request for main to pull the changes found in another branch, effectively merging them if no conflicts occur between the two. Usually this shouldn't happen, unless main has had edits of its own.
 
 This is very easy to do on the GitHub website:
 
@@ -184,7 +184,7 @@ This is very easy to do on the GitHub website:
 4. Once you confirm the creation of the pull request, you will be taken to a page where you can merge the two, and add a comment and a description to the merge. Your repository also has a dedicated pull requests tab where you can see all the active ones.
 5. Once you're done, you can freely delete the branch you just merged.
 
-Of course, this can be done in Git Bash as well using ```git checkout master``` to move back to the master branch (or whichever branch you want to merge the new branch into), and then ```git merge <branch-name>```, but I personally prefer the web version. In case you don't, [here's some documentation](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) on branching and merging in Git. It also contains a more in-depth explanation of how they work if you're feeling particularly curious.
+Of course, this can be done in Git Bash as well using ```git checkout main``` to move back to the main branch (or whichever branch you want to merge the new branch into), and then ```git merge <branch-name>```, but I personally prefer the web version. In case you don't, [here's some documentation](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) on branching and merging in Git. It also contains a more in-depth explanation of how they work if you're feeling particularly curious.
 
 # 5. Integrated Git functionality in IDEs
 
