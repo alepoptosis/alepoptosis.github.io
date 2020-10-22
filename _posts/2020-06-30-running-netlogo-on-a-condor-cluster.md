@@ -1,7 +1,7 @@
 ---
 layout: template
 title: Running NetLogo on a Condor cluster
-sub_title: How do run your simulations efficiently while minimising headaches
+sub_title: How to run your simulations efficiently while minimising headaches
 ---
 
 # Running NetLogo on a Condor cluster
