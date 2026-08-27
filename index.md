@@ -1,7 +1,6 @@
 ---
-layout: template
-title: alepoptosis
-sub_title: Personal Website
+layout: default
+title: a.v. writes
 ---
 
 {% for post in site.posts %}     

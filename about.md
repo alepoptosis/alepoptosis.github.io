@@ -1,5 +1,6 @@
 ---
-layout: template
+title: about a.v.
+layout: default
 ---
 
 A.V. Avallone (he/they) is an Italian trans man living in Scotland. He's a data analyst and a director of Typewronger
