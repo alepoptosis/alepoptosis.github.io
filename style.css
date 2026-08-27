@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    background-color: #587B7F;
+    text-align: justify;
+    width: 100%;
+    line-height: 1.3em;
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #393e41;
+    border-bottom: 1px dashed white;
+    width: 90%;
+    height: 40px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.home:link,
+.home:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.info {
+    margin-left: auto;
+    text-decoration: none;
+}
+
+.info:link,
+.info:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.page {
+    display: flex;
+    background-color: white;
+    width: 90%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+@media only screen and (min-width: 961px) {
+  .page,
+  .header {
+    width: 700px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.content {
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.content p {
+    padding-bottom: 5%;
+}
+
+.content p:first-of-type {
+    padding-top: 5%;
+}
+
+ul {
+    padding-left: 2rem;
+    padding-bottom: 5%;
+    list-style-type: "- ";
+    text-align: left;
+}
+
+ol {
+    padding-left: 2rem;
+    padding-bottom: 5%;
+    text-align: left;
+
+}
+
+a:link,
+a:visited {
+    color: #202020;
+}
+
+a:hover,
+a:visited:hover,
+a:active,
+a:visited:active {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.writing-item-bg {
+    position: relative;
+    background-color: #424242;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.writing-item {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border: 1px dashed #202020;
+    padding: 10px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    z-index: 2;
+}
+
+.writing-item:link,
+.writing-item:visited {
+    font-style: none;
+    text-decoration: none;
+}
+
+.writing-item:hover {
+    top: 0px;
+    left: 0px;
+}
+
+.writing-meta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.writing-item .writing-meta {
+    margin-bottom: 0px;
+}
+
+.writing-item p:first-of-type {
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
