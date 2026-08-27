@@ -1,5 +1,5 @@
 ---
-layout: template
+layout: post_template
 title: how to recover from burnout
 preview: Go to bed and wake up at around the same time everyday, and get at least eight hours of good sleep. Invest in a memory foam pillow. Invest in a hybrid mattress.
 category: short-fiction
@@ -73,5 +73,3 @@ Blink, and It will be gone, but you won’t be. Let yourself fall asleep on the 
     feeling refreshed, energised, and ready to take on the day!
     
 Last but not least, invest in good multivitamins.
-
-</div>
