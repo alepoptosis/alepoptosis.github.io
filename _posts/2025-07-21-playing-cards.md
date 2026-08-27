@@ -1,0 +1,26 @@
+---
+layout: post_template
+title: playing cards
+preview: A little over a year ago, I stopped by The Write Stuff, Edinburgh’s only independent stationery shop, during a visit to Stockbridge. On a shelf sat a set of playing cards, a modern spin on the traditional design – a bit pastel, with a fancy blue outline. I thought about buying them, and for whatever reason, didn’t.
+category: musings
+---
+
+A little over a year ago, I stopped by [The Write Stuff](https://www.stockbridgeedinburgh.com/the-write-stuff/), Edinburgh’s only independent stationery shop, during a visit to Stockbridge. On a shelf sat a set of playing cards, a modern spin on the traditional design – a bit pastel, with a fancy blue outline. I thought about buying them, and for whatever reason, didn’t.
+
+377 days later, I found that same stationery shop online, gave them a ring, and asked them whether they still stocked a set of 2 decks of playing cards – modern, minimal, a bit pastel? – that I had seen over a year before. I still hadn’t stopped thinking about them. Imagine my surprise when the person on the other end of the phone said they did. They set them aside for me until Monday.
+
+Today, I opened them, gave them a shuffle, sent a picture of them to my mum, and decided it was time to create a space for my own writing to breathe, where musings like this could be heard, untroubled, by whomever wished to listen. Because where else am I going to write about buying a deck of playing cards?
+
+My mum replied: “And who will you play with?” Followed by a smiling, tearing up emoji.
+
+My mum started teaching me card games as soon as I could reliably count. There’s a photo my dad took of six-year-old me and thirty-eight-year-old her, sitting at the kitchen table, in the middle of a [Buraco](https://en.wikipedia.org/wiki/Buraco) game. We’re tanned from the sun, I’m losing as usual, and I realise just now how young she really is in this photo. She never let me win a single game I hadn’t earned. As a result, I can count on the fingers of one hand the number of times I beat her at Buraco: once, when I was twelve, another time, when I was eighteen, and I guess that’s about it. The other game we play, [Machiavelli](https://en.wikipedia.org/wiki/Machiavelli_\(Italian_card_game\)), is somehow a more level playing field, and each of us wins about as often as not. The losses have never deterred me from playing – every time gathering the cards back up and demanding a rematch.
+
+To this day, whenever I go back home, and especially in the summer, my mum and I still sit down to play cards. After dinner, she’ll have a cigarette, I’ll put my feet up in a nook under the table even though they’ve stopped fitting there when I was seventeen, and we’ll play a round or two (or three). Sometimes we play music, sometimes we chat, but most often we just play, exchanging comments every so often – taunting each other. If there was a lifetime recap of how we spent quality time together, playing cards would be in our top three. This formula hasn’t changed in over two decades. Neither have the cards. I have vague recollections of their long-defunct boxes, the decks now held together by a much more reliable rubber band, no idea what brand they could even be. The countless games we played across the years have all been on one of two sets of decks, yellowed by age and the oil of our fingertips, yet still bright and in perfect working order. One of these sets went missing a few years ago, but I’m sure it’ll turn up somewhere in the house, when it wants to be found.
+
+This formula hasn’t changed in over two decades. Neither have the cards. I have vague recollections of their long-defunct boxes, the decks now held together by a much more reliable rubber band, no idea what brand they could even be. The countless games we played across the years have all been on one of two sets of decks, yellowed by age and the oil of our fingertips, yet still bright and in perfect working order. One of these sets went missing a few years ago, but I’m sure it’ll turn up somewhere in the house, when it wants to be found.
+
+Today, 380 days after seeing that deck of cards in the shop, I open my own, brand-new one, and I feel a bit emotional and don’t know why. I’m sure part of it is the lack of sleep from the unbearable nerve pain I’ve been experiencing these past couple weeks, but no, it’s not that. It’s about the potential.
+
+I unpack them and wonder. Will they come with me on holiday, like ours used to? Will they feel my hands, my lovers’ hands, my friends’ hands, my child’s hands – hear our conversations? Will they start smelling like sunscreen and sand and cigarettes and mosquito spray? I struggle to shuffle them, new and crisp as they are, they’re missing the wear and tear that makes playing cards nice to play with, but that wear and tear is something that can only be obtained by playing with them, so you have to put up with it at first, work with them a bit before they start feeling like yours.
+
+Guess it’s time to go teach my people some games.
