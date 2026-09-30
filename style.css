@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Cascadia Mono', Courier, monospace;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 0.9em;
     background-color: #587B7F;
     text-align: justify;
@@ -75,6 +75,7 @@ body {
 
     body {
         text-align: left;
+        font-weight: 400;
     }
 }
 
