@@ -6,10 +6,10 @@
 
 body {
     font-family: 'Cascadia Mono', Courier, monospace;
-    font-weight: 800;
+    font-weight: 400;
     font-size: 0.9em;
     background-color: #587B7F;
-    text-align: justify;
+    text-align: left;
     width: 100%;
     line-height: 1.3em;
 }
@@ -74,8 +74,8 @@ body {
     }
 
     body {
-        text-align: left;
-        font-weight: 400;
+        text-align: justify;
+        font-weight: 600;
     }
 }
 
