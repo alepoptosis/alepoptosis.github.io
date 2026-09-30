@@ -72,6 +72,10 @@ body {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
+    .body {
+        text-align: left;
+    }
 }
 
 .content {
