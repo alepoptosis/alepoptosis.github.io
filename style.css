@@ -6,12 +6,12 @@
 
 body {
     font-family: 'Cascadia Mono', Courier, monospace;
+    font-weight: 400;
     font-size: 0.9em;
     background-color: #587B7F;
     text-align: justify;
     width: 100%;
     line-height: 1.3em;
-
 }
 
 .container {
@@ -73,7 +73,7 @@ body {
         padding-bottom: 20px;
     }
 
-    .body {
+    body {
         text-align: left;
     }
 }

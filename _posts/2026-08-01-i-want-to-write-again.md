@@ -31,7 +31,7 @@ This is immediately discredited by the existence of authors who are adults. If a
 
 3. I don't have a clear end goal for my writing
 
-When all I wrote was fanfiction, the process was clear: I had an idea, I applied it to a ready-made universe and characters I was intimately familiar with, I wrote the story I wanted to write, did a round of edits or two with an equally obsessed writer friend, and then posted it on the fanfiction website we all frequented for others to read. I would get some likes and comments, generating some much needed dopamine, then rinse and repeat. Now, there is no straightforward end goal. I get an idea, I write it down somewhere so I don't forget it, and then don't make it simply because __I don't know where to put it__. I made this website to try and fix that issue, so if you're reading this, maybe it's working.
+When all I wrote was fanfiction, the process was clear: I had an idea, I applied it to a ready-made universe and characters I was intimately familiar with, I wrote the story I wanted to write, did a round of edits or two with an equally obsessed writer friend, and then posted it on the fanfiction website we all frequented for others to read. I would get some likes and comments, generating some much needed dopamine, then rinse and repeat. Now, there is no straightforward end goal. I get an idea, I write it down somewhere so I don't forget it, and then don't make it simply because *I don't know where to put it*. I made this website to try and fix that issue, so if you're reading this, maybe it's working.
 
 4. I am still too exhausted and traumatised to create
 
@@ -41,7 +41,7 @@ And then, last but definitely not least, the terrifying, deep-seated fear we've 
 
 5. I just don't care about anything enough anymore
 
-Kurt Vonnegut's first and most important piece of writing advice is to __"find a subject you care about and which you in your heart feel others should care about"__. This is excellent advice, bless that man, and also the one thing that has sown the ultimate seed of self-doubt inside me. When I was a teen, this was easy peasy, hence the scores of fanfiction. I had encyclopaedic knowledge about this little corner of culture that others also intensely cared about, and I used it to write stories others wanted to read in this ready-made universe I knew everything about. So what if the real problem is that now I simply do not care about anything enough anymore?
+Kurt Vonnegut's first and most important piece of writing advice is to *"find a subject you care about and which you in your heart feel others should care about"*. This is excellent advice, bless that man, and also the one thing that has sown the ultimate seed of self-doubt inside me. When I was a teen, this was easy peasy, hence the scores of fanfiction. I had encyclopaedic knowledge about this little corner of culture that others also intensely cared about, and I used it to write stories others wanted to read in this ready-made universe I knew everything about. So what if the real problem is that now I simply do not care about anything enough anymore?
 
 Of course, that fear is baseless. I care about people, about human rights, about the trans experience, about love and relationships and the bonds that we build with each other, I care about books and weird indie video games and puzzles that feel like they personally hate me, and - most of all - I care about writing, which is itself a hard thing to write about. But picking through all this love I have in search of something to write feels like picking at a plate of delicious treats when you've just been sick with food poisoning. This post is the plain rice I am using to try and get my stomach back to normal.
 
@@ -49,4 +49,4 @@ I am not sure if there is any sort of satisfying conclusion I could write to a p
 
 I guess I will leave you with another one of Kurt Vonnegut's rules about writing, and hope that, if you needed it, this post has helped you even half as much as I hope it has helped me.
 
-It simply goes: __"Be not afraid."__
+It simply goes: *"Be not afraid."*
